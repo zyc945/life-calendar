@@ -16,16 +16,16 @@
 		themes = [
 			{
 				box: {
-					borderColor: '#000',
+					borderColor: '#CCC',
 					backgroundDefaultColor: '#FFF',
-					backgroundPastDayColor: '#000',
+					backgroundPastDayColor: '#87ccc9',
 				}
 			},
 			{
 				box: {
-					borderColor: '#CCC',
+					borderColor: '#000',
 					backgroundDefaultColor: '#FFF',
-					backgroundPastDayColor: '#87ccc9',
+					backgroundPastDayColor: '#000',
 				}
 			},
 			{
@@ -73,39 +73,6 @@
 			},
 			{
 				months: [
-					'Январь',
-					'Февраль',
-					'Март',
-					'Апрель',
-					'Май',
-					'Июнь',
-					'Июль',
-					'Август',
-					'Сентябрь',
-					'Октябрь',
-					'Ноябрь',
-					'Декабрь'
-				],
-				settings: {
-					lang_set_birthday: "Дата вашего рождения:",
-					dp_day: "День",
-					dp_month: "Месяц",
-					dp_year: "Год",
-					lang_set_theme: "Дизайн календаря:",
-					lang_select_lang: "Язык:",
-					lang_save_print: "Сохранение или печать:",
-					lang_save_jpg: "JPG",
-					lang_save_pdf: "PDF",
-					lang_print: "Печать",
-				},
-				calendar: {
-					title: 'КАЛЕНДАРЬ ЖИЗНИ',
-					left_text: '← Возраст',
-					top_text: 'Недели года →'
-				}
-			},
-			{
-				months: [
 					'January',
 					'February',
 					'March',
@@ -135,6 +102,39 @@
 					title: 'LIFE CALENDAR',
 					left_text: '← Age',
 					top_text: 'Week of the Year →'
+				}
+			},
+			{
+				months: [
+					'Январь',
+					'Февраль',
+					'Март',
+					'Апрель',
+					'Май',
+					'Июнь',
+					'Июль',
+					'Август',
+					'Сентябрь',
+					'Октябрь',
+					'Ноябрь',
+					'Декабрь'
+				],
+				settings: {
+					lang_set_birthday: "Дата вашего рождения:",
+					dp_day: "День",
+					dp_month: "Месяц",
+					dp_year: "Год",
+					lang_set_theme: "Дизайн календаря:",
+					lang_select_lang: "Язык:",
+					lang_save_print: "Сохранение или печать:",
+					lang_save_jpg: "JPG",
+					lang_save_pdf: "PDF",
+					lang_print: "Печать",
+				},
+				calendar: {
+					title: 'КАЛЕНДАРЬ ЖИЗНИ',
+					left_text: '← Возраст',
+					top_text: 'Недели года →'
 				}
 			}
 		];
